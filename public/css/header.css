@@ -1,0 +1,105 @@
+/* Header Section */
+.navbar {
+    background-color: #07689f !important;
+}
+.navbar-effect {
+    transition: 500ms;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.2);
+}
+.nav-link {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.top-header {
+    position: relative; 
+    width: 100%;
+    min-height: 100vh; 
+    max-height:100%;
+    background: linear-gradient(#07689f,#5d54a4);
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px; 
+    margin-top: 50px; 
+}
+.admin-name {
+    position: absolute;
+    top: 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+.name {
+    font-family: 'Sacramento', cursive;
+    font-size: 7rem;
+}
+.surname {
+    font-size: 2rem;
+}
+.header-icons {
+    color: #ffffff;
+    font-size: 4rem;
+    margin-top: 20rem;
+}
+.fa-laptop-code {
+    position: absolute;
+    right: 7rem;
+}
+@media (max-width: 500px) {
+    .top-header {
+        height: 1000px;
+    }
+    .name {
+        font-size: 3rem;
+    }
+    .header-icons {
+        color: #ffffff;
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+}
+@media (max-width: 1000px) {
+    .top-header {
+        height: 1000px;
+    }
+    .name {
+        font-size: 4rem;
+    }
+    .fa-code {
+        position: absolute;
+    }
+}
+.custom-shape-divider-bottom-1605722476 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1605722476 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1605722476 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.navbar-nav.navbar-center {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}

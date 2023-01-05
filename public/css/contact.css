@@ -1,0 +1,41 @@
+/* Contact Section */
+#contact {
+    background-color: #393b44;
+}
+.contact-icon {
+    text-align: center;
+    color: #686d76;
+    margin-bottom: 50px;
+}
+.fas-contact {
+    font-size: 6rem;
+}
+.contact-h4 {
+    color: #838383;
+    font-weight: bold;
+}
+.first {
+    margin-bottom: 30px;
+}
+.form-control {
+    background-color: #686d76;
+}
+.form-control::-webkit-input-placeholder {
+    color: #898b8a;
+}
+.contact-label {
+    color: #838383;
+}
+.form-check-label {
+    margin-bottom: 10px;
+}
+.contact-h5 {
+    color: #838383;
+
+}
+.infos {
+    margin-bottom: 30px;
+}
+.info-button {
+    margin-top: 10px;
+}

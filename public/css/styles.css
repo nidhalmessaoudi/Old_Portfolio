@@ -1,0 +1,71 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+    scroll-behavior: smooth;
+}
+::-moz-selection { 
+    color: #374045;
+    background: #28abb9;
+  }
+  
+  ::selection {
+    color: #374045;
+    background:aliceblue;
+  }
+h2 {
+    color: #838383;
+    font-weight: bold;
+}
+p {
+    color: #838383;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+hr {
+    line-height: 2px;
+    color: black;
+}
+.container-fluid {
+    padding: 7% 10%;
+}
+/* Footer Section */
+.footer {
+    background-color: #1a1c20;
+    text-align: center;
+}
+
+.social-media {
+    padding-bottom: 20px;
+}
+.social-icon {
+    color: #838383;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: color 500ms;
+}
+.social-icon:hover {
+    color: #FFFFFF;
+}
+/* 404Page Style */
+.notfound {
+    justify-content: center;
+    text-align: center;
+    padding: 3% 25%;
+    margin: 4rem 0;
+}
+.notfound-img {
+    max-width: 15%;
+}
+@media (max-width: 992px) {
+    .notfound-img {
+        max-width: 40%;
+    } 
+}
+.notfound-text {
+    line-height:1.5;
+    margin: 15px 0;
+}

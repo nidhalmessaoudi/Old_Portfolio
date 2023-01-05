@@ -1,0 +1,39 @@
+/* Skills Section */
+.progress-bar {
+  padding: 10px;
+}
+.icons {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+.icon {
+  color: #838383;
+  font-size: 6rem;
+  padding: 10px;
+}
+.progress {
+  margin-bottom: 30px;
+}
+.skills-h4 {
+  margin-bottom: 30px;
+  color: #838383;
+  font-weight: bold;
+}
+.skills-hr {
+  margin: auto;
+  width: 60px;
+}
+.tech-list {
+  color: #838383;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.projects-h3 {
+  color: #838383;
+}
+.more {
+  text-align: center;
+  margin-top: 30px;
+}
